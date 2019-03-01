@@ -12,4 +12,8 @@ server.get('/', (req,res)=>{
     res.json({greetin:'Hello , it works'})
 })
 
+server.get('/hello', (req,res)=>{
+
+    res.json({greetin:'Hello , it works gggggggggggggggggggg'})
+})
 module.exports = server;
